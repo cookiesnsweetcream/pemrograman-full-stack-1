@@ -1,0 +1,139 @@
+body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #E0E0E0;
+        }
+        .container {
+            display: flex;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #F8F8F8;
+            padding: 20px;
+            height: 100vh;
+        }
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .sidebar ul li i {
+            margin-right: 10px;
+        }
+        .sidebar ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 16px;
+        }
+        .sidebar .nav-link:hover {
+            color: #fff;
+            background-color: #C4B5FD;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .main-content {
+            flex: 1;
+            padding: 40px;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h2 {
+            font-size: 28px;
+        }
+        .header .search-bar {
+            display: flex;
+            align-items: center;
+        }
+        .header .search-bar input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            margin-right: 20px;
+        }
+        .header .profile {
+            display: flex;
+            align-items: center;
+        }
+        .header .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+        .cards {
+            display: flex;
+            margin-top: 40px;
+        }
+        .card {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            margin-right: 20px;
+            width: 300px;
+            position: relative;
+        }
+        .card .chip {
+            position: absolute;
+            right: 1px;
+            background-color: #C4B5FD;
+            padding: 70px 20px;
+            border-radius: 5px;
+        }
+        .transactions, .history {
+            margin-top: 40px;
+        }
+        .transactions h3, .history h3 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .transactions ul, .history ul {
+            list-style: none;
+            padding: 0;
+        }
+        .transactions ul li, .history ul li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .transactions ul li .icon, .history ul li .icon {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .transactions ul li .details, .history ul li .details {
+            flex: 1;
+        }
+        .transactions ul li .details p, .history ul li .details p {
+            margin: 0;
+        }
+        .transactions ul li .details p:first-child, .history ul li .details p:first-child {
+            font-weight: 600;
+        }
+        .transactions ul li .details p:last-child, .history ul li .details p:last-child {
+            color: #888;
+        }
+        .transactions ul li .amount, .history ul li .amount {
+            font-weight: 600;
+        }
+        .chart {
+            margin-top: 40px;
+        }
+        .chart img {
+            width: 100%;
+        }
